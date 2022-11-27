@@ -1,67 +1,111 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="sr" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <title>Nemanja Stojanovic</title>
+  <title>Nemanja Stojanović</title>
+  <meta name="description"
+    content="Biografija (CV) Nemanja Stojanović - Front-End developer i tim lider tima za korisničku podršku">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Ubuntu&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Ubuntu&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark fixed-top" aria-label="Third navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Nemanja Stojanović</a>
+        <img src="images/nemanja.png" alt="Slika">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03"
+          aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-  <section class="topcontainer">
-    <img class="top-comp" src="images/comp.png" alt="slika-oblak">
-    <h1>Ja sam Nemanja Stojanović</h1>
-    <h2>Front-End Developer i </h2>
-    <h2>Specijalista za korisničku podršku (L2, L3)</h2>
-    <img class="bottom-comp" src="images/comp.png" alt="slika-oblak">
-  </section>
-
-  <div class="middle-container">
-    <div class="profile">
-      <img src="images/nemanja.png" class="profile-image" alt="slika">
-      <h2>ZDRAVO</h2>
-      <p class="intro">Trenutno sam zaposlen u kompaniji <a href="https://www.unifiedpost.com/sr-latn-rs/zemlje/srbija?utm_source=Google&utm_medium=Search&utm_campaign=April+2022&utm_id=Unifiedpost&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLXAMdyuqCtD5XzHNXmAFRq_SzbEf60jHbRx31sdRP1B4sglhIRVxNEaAkX0EALw_wcB#CountryPageSerbia"> Unifiedpost</a> kao L2 i L3 Specijalista u timu korisničke podrške. Posedujem veliku želju da se dalje usavršavam i trenutno aktivno razvijam svoje veštine i znanja sa ciljem da postanem Front end developer.</p>
-    </div>
-
-    <hr class="doted">
-
-    <div class="skills">
-      <h2>MOJE VEŠTINE</h2>
-      <div class="skill-row">
-        <img class="dev-image" src="images/web-development.png" alt="development">
-        <h3 class="h3-skills">Front-end Development i WEB Dizajn</h3>
-        <p>Kompletirao sam online <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/" target="_blank">The complete 2022 Web Development Bootcamp kurs</a>. Polaznik sam Com Trade-ovog kursa Front-End Development. Programiranje je moja strast, računari prva ljubav od moje desete godine.</p>
+        <div class="collapse navbar-collapse" id="navbarsExample03">
+          <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="/kontakt.html" target="_blank">Kontakt</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://code.edu.rs/obuke/front-end-development/?gclid=EAIaIQobChMIwIXNtZjO-wIV1ep3Ch3F1gWEEAAYAiAAEgK7J_D_BwE" target="_blank">Obrazovanje i edukacija</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Moji
+                projekti</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://agile-hollows-45738.herokuapp.com/" target="_blank">Newsletter signup</a></li>
+                <li><a class="dropdown-item" href="#">Weather forecast</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form role="search">
+            <input class="form-control" type="search" placeholder="Pretraga" aria-label="Search">
+          </form>
+        </div>
       </div>
-      <div class="skill-row">
-        <img class="support-image" src="images/help-desk.png" alt="heldesk">
-        <h3>Specijalista za korisničku podršku</h3>
-        <p>Korisnička podrška je ono čime se trenutno bavim kao specijalista za korisničku podršku unutar kompanije Unifiedpost group. <a href="https://www.efaktura.gov.rs/"  target="_blank">Sistem E-faktura</a>, <a href="https://www.banqup.com/rs/sr-latn-rs"  target="_blank">Banqup</a> i UniOut RFZO su samo neki od projekata na kojima sam angažovan u pružanju L2 i L3 nivoa korisničke i tehničke podrške.</p>
+    </nav>
+  </header>
+  <main>
+    <div class="middle-container">
+      <div>
+        <h2>ZDRAVO</h2>
+        <p class="intro">Trenutno sam zaposlen u kompaniji <a
+            href="https://www.unifiedpost.com/sr-latn-rs/zemlje/srbija?utm_source=Google&utm_medium=Search&utm_campaign=April+2022&utm_id=Unifiedpost&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLXAMdyuqCtD5XzHNXmAFRq_SzbEf60jHbRx31sdRP1B4sglhIRVxNEaAkX0EALw_wcB#CountryPageSerbia" target="_blank">
+            Unifiedpost</a> kao L2 i L3 Specijalista u timu korisničke podrške. Posedujem veliku želju da se dalje
+          usavršavam i trenutno aktivno razvijam svoje veštine i znanja sa ciljem da postanem Front end developer.</p>
+      </div>
+
+      <hr class="doted">
+
+      <div id="skills">
+        <h2>MOJE VEŠTINE</h2>
+        <div class="skill-row">
+          <div class="img-skils"><img src="images/web-development.png" alt="Front-end programiranje"></div>
+          <div><h3>Front-end Development i WEB Dizajn</h3>
+          <p>Kompletirao sam online <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/"
+              target="_blank">The complete
+              2022 Web Development Bootcamp kurs</a>. Polaznik sam Com Trade-ovog kursa
+            Front-End Development. Programiranje je moja strast, računari prva ljubav od moje desete godine.</p>
+          </div>
+        </div>
+        <div class="skill-row">
+          <div class="img-skils"><img src="images/help-desk.png" alt="Korisnička podrška,heldesk"></div>
+          <div><h3>Specijalista za korisničku podršku</h3>
+          <p>Korisnička podrška je ono čime se trenutno bavim kao specijalista za korisničku podršku
+            unutar kompanije
+            Unifiedpost group. <a href="https://www.efaktura.gov.rs/" target="_blank">Sistem E-faktura</a>, <a
+              href="https://www.banqup.com/rs/sr-latn-rs" target="_blank">Banqup</a> i UniOut RFZO su samo neki od
+            projekata na kojima sam angažovan u pružanju L2 i L3 nivoa korisničke i tehničke podrške.</p>
+          </div>
+          </div>
+      </div>
+      <hr class="doted">
+      <div id="conected">
+        <h2>Ostanimo povezani, ukoliko želite da razmenimo iskustva i pružimo priliku jedni
+          drugima.</h2>
+        <p class="text-btn">Volite da se družite i da učite nove stvari? Hajde da pričamo o programiranju dok
+          se
+          zabavljamo zajedno!!!</p>
+        <button type="button" class="btn b-color">MAIL</button>
       </div>
     </div>
+  </main>
 
-    <hr class="doted">
-    <div class="contact-me">
-      <h2>Ostanimo povezani, ukoliko želite da razmenimo iskustva i pružimo priliku jedni drugima.</h2>
-      <p class="text-btn">Volite da se družite i da učite nove stvari? Hajde da pričamo o programiranju dok se zabavljamo zajedno!!!</p>
-      <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
-    </div>
-  </div>
-
-
-  <div class="bottom-container">
+  <footer class="bottom-container">
     <a class="footer-link" href="https://www.linkedin.com/feed/" target="_blank">LinkedIn</a>
     <a class="footer-link" href="https://twitter.com/" target="_blank">Twitter</a>
     <a class="footer-link"
-      href="https://www.unifiedpost.com/sr-latn-rs/zemlje/srbija?utm_source=Google&utm_medium=Search&utm_campaign=April+2022&utm_id=Unifiedpost&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLXAMdyuqCtD5XzHNXmAFRq_SzbEf60jHbRx31sdRP1B4sglhIRVxNEaAkX0EALw_wcB#CountryPageSerbia" target="_blank">Unifiedpost</a>
+      href="https://www.unifiedpost.com/sr-latn-rs/zemlje/srbija?utm_source=Google&utm_medium=Search&utm_campaign=April+2022&utm_id=Unifiedpost&gclid=Cj0KCQjwlemWBhDUARIsAFp1rLXAMdyuqCtD5XzHNXmAFRq_SzbEf60jHbRx31sdRP1B4sglhIRVxNEaAkX0EALw_wcB#CountryPageSerbia"
+      target="_blank">Unifiedpost</a>
     <p class="footer-text">© Nemanja Stojanović</p>
-  </div>
-
-
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
